@@ -92,7 +92,7 @@ posts.forEach(element => {
     </div>`
 
     const container = document.getElementById("container");
-    container.append(post);
+    container.innerHTML += post;
 
 
 
